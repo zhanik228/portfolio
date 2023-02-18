@@ -94,7 +94,8 @@ img{vertical-align: top;}
 
 /**************************/
 .container {
-  max-width: 1196px;
+  max-width: 1211px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -114,7 +115,7 @@ img{vertical-align: top;}
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 15px;
+
 }
 .header-nav__list {
   display: flex;
@@ -164,7 +165,6 @@ img{vertical-align: top;}
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 15px;
 }
 .intro-text {
   padding: 10px;
@@ -248,7 +248,7 @@ img {
 /* About */
 
 .about {
-  padding: 40px 15px 74px 15px;
+  padding: 40px 0px 74px 0px;
 }
 .about__container {
 }
@@ -481,7 +481,6 @@ img {
 
 .education {
   margin: 0 0 90px 0px;
-  padding: 0 15px;
 }
 .education__container {
 }
@@ -556,7 +555,6 @@ img {
   background: #19191D;
   padding: 60px 0;
   margin-bottom: 90px;
-  padding: 0 15px;
 }
 .skills__container {
 }
